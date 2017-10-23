@@ -3,6 +3,9 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 *:before, *:after {
@@ -15,18 +18,24 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  align-items: center;
 }
 
 img {
   vertical-align: middle;
 }
 
-.container {
+.container { /*agregue especificaciones para el background y padding*/
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+
+  background-position: center;
 }
 
 .container:before, .container:after {
@@ -64,10 +73,96 @@ a {
 a:hover {
   color: #E95853;
 }
-
 .text-uppercase {
   text-transform: uppercase;
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: left;
 
+}
+.head{
+    top: 0;
+    padding: 0.5em;
+    margin-left: 10%;
+    display: inline-block;
+}
+.logo{
+    height: 3em;
+    margin-right: 10%;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top:0.7em;
+}
+.head>a{
+    vertical-align: middle;
+    display: inline-block;
+    margin: 1em;
+}
+.app{
+    background-image: url("../assets/images/bg-home.jpg");
+    padding: 10%;
+}
+.app a{
+    color: white;
+    background-color: #2acb72;
+    padding: 1em;
+    margin: 0.5em;
+}
+.white{
+    width: 100%;
+    height: 4.6em;
+    background-color: white;
+}
+h1{
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+h5{
+    margin: 0.2em;
+}
+h6{
+    margin: 0.2em;
+}
+.services{
+    background-color: #f07b72;
+    top: 0;
+    vertical-align: top;
+    padding: 5%;
+}
+.products{
+    display: inline-block;
+    text-align: center;
+    margin: 1em 3.5em;
+}
+.products img{
+    height: 11em;
+}
+.work{
+    color: black;
+    top: 0;
+    vertical-align: top;
+    padding: 5%;
+}
+.work img{
+    width: 100%;
+}
+.proyecto{
+    text-align: center;
+    margin: 2em;
+    display: inline-block;
+}
+.proyecto img{
+    width: 17em;
+}
+footer{
+    background-color: #363a46;
+    color: white;
+    padding: 0.5em;
+}
